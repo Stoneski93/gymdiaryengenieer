@@ -12,47 +12,49 @@
 
 \raggedbottom
 
-\katedra{NAZWA KATEDRY}
-\typpracy{ magisterska
+\katedra{OPROGRAMOWANIA}
+\typpracy{ inżynierska
            %inżynierska
          }
 
-\temat{Aplikacja mobilna do zarządzania treningiem na siłownii}
-\autor{AUTOR PRACY}
-\promotor{PROMOTOR}
-\indeks{00000}
+\temat{APLIKACJA MOBILNA DO ZARZĄDZANIA TRENINGIEM NA SIŁOWNI}
+\autor{Norbert Kamieński}
+\promotor{dr inż. Marcin Czajkowski}
+\indeks{93401}
 
 \studia{stacjonarne
         %niestacjonarne
        }
 
-\rokakademicki{2014/2015}
+\rokakademicki{2016/2017}
 
 \profil{%magisterskie jednolite
         %magisterskie uzupełniające
         %studia I stopnia
-        studia II stopnia
+        studia I stopnia
 }
 \kierunekstudiow{informatyka
                  %matematyka
                 }
 
-\specjalnosc{Inżynieria Oprogramowania
+\specjalnosc{ 
              %Inżynieria Komputerowa
              %Systemy Oprogramowania
              %Metody infnformatyczne w~banknkowości i~finansach
              %Ochrona systemów informatycznych
             }
 
-\zakres{1.  \newline 2.   \newline 3. }
-\slowakluczowe{slowo1, slowo2, slowo3 }
+\zakres{1. Opis technologii wykorzystywanych przy tworzeniu systemu.  \newline
+ 2. Wykonanie projektu aplikacji do zarządzania treningiem na siłowni.   \newline 
+ 3. Implementacja i testy zrealizowanej aplikacji.  \newline }
+\slowakluczowe{Aplikacja Mobilna, React Native, Firebase, JavaScript, Android, Organizer }
 
 
 \hypersetup{ %wpisy w pdf info
 pdfauthor={Norbert Kamieński},
-pdftitle={TYTUŁ PRACY},
+pdftitle={APLIKACJA MOBILNA DO ZARZĄDZANIA TRENINGIEM NA SIŁOWNI},
 pdfsubject={Krótki opis pracy. },
-pdfkeywords={slowa, kluczowe, po, przecinkach},
+pdfkeywords={Aplikacja Mobilna, React Native, Firebase, JavaScript, Android, Organizer},
 pdfpagemode=UseNone,
 linkcolor=black,
 citecolor=black
@@ -60,6 +62,7 @@ citecolor=black
 
 \begin{document}
 \maketitle
+\input{rozdzialy/English.tex}
 \tableofcontents
 \thispagestyle{empty}
 \setcounter{page}{0}
@@ -68,12 +71,12 @@ citecolor=black
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
 \input{rozdzialy/Wstep.tex}
-\input{rozdzialy/Istniejace.tex}
-\input{rozdzialy/Systemy.tex}
+\input{rozdzialy/Analiza.tex}
+\input{rozdzialy/Technologie.tex}
 \input{rozdzialy/Aplikacja.tex}
-\input{rozdzialy/Metodologia.tex}
-\input{rozdzialy/Badania.tex}
 \input{rozdzialy/Podsumowanie.tex}
+%\input{rozdzialy/Bibliografia.tex}
+%\input{rozdzialy/Podsumowanie.tex}
 
 \nocite{*} %wszystkie wpisy w bibliografi
 \bibliographystyle{unsrt} %{latex8} posortowane wzgledem wystepowania
