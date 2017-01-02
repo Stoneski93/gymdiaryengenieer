@@ -1,0 +1,96 @@
+\documentclass[twoside,12pt]{wipb}
+\usetikzlibrary{mindmap,trees}%dla diagramu Computer science mindmap
+
+\usepackage{url}
+\usepackage{float}
+\usepackage{paralist}
+\usepackage{xcolor}
+\usepackage[nottoc,numbib]{tocbibind}
+
+\widowpenalty=10000
+\clubpenalty=10000
+
+\raggedbottom
+
+\katedra{NAZWA KATEDRY}
+\typpracy{ magisterska
+           %inżynierska
+         }
+
+\temat{Aplikacja mobilna do zarządzania treningiem na siłownii}
+\autor{AUTOR PRACY}
+\promotor{PROMOTOR}
+\indeks{00000}
+
+\studia{stacjonarne
+        %niestacjonarne
+       }
+
+\rokakademicki{2014/2015}
+
+\profil{%magisterskie jednolite
+        %magisterskie uzupełniające
+        %studia I stopnia
+        studia II stopnia
+}
+\kierunekstudiow{informatyka
+                 %matematyka
+                }
+
+\specjalnosc{Inżynieria Oprogramowania
+             %Inżynieria Komputerowa
+             %Systemy Oprogramowania
+             %Metody infnformatyczne w~banknkowości i~finansach
+             %Ochrona systemów informatycznych
+            }
+
+\zakres{1.  \newline 2.   \newline 3. }
+\slowakluczowe{slowo1, slowo2, slowo3 }
+
+
+\hypersetup{ %wpisy w pdf info
+pdfauthor={Norbert Kamieński},
+pdftitle={TYTUŁ PRACY},
+pdfsubject={Krótki opis pracy. },
+pdfkeywords={slowa, kluczowe, po, przecinkach},
+pdfpagemode=UseNone,
+linkcolor=black,
+citecolor=black
+} 
+
+\begin{document}
+\maketitle
+\tableofcontents
+\thispagestyle{empty}
+\setcounter{page}{0}
+\pagestyle{plain}
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+
+\input{rozdzialy/Wstep.tex}
+\input{rozdzialy/Istniejace.tex}
+\input{rozdzialy/Systemy.tex}
+\input{rozdzialy/Aplikacja.tex}
+\input{rozdzialy/Metodologia.tex}
+\input{rozdzialy/Badania.tex}
+\input{rozdzialy/Podsumowanie.tex}
+
+\nocite{*} %wszystkie wpisy w bibliografi
+\bibliographystyle{unsrt} %{latex8} posortowane wzgledem wystepowania
+\bibliography{bibliografia}%
+
+%\addtocontents{toc}{\contentsline {chapter}{Bibliografia}{\thepage}{}}
+\listoftables
+%\addtocontents{toc}{\contentsline {chapter}{Spis tabel}{\thepage}{}}
+\listoffigures
+%\addtocontents{toc}{\contentsline {chapter}{Spis rysunków}{\thepage}{}}
+\lstlistoflistings
+%\addtocontents{toc}{\contentsline {chapter}{Spis listingów}{\thepage}{}}
+%\listofalgorithms % w zaleznosci od kompilatora i wersji klasy moga wystapic bledy przy kompilacji
+%\addtocontents{toc}{\contentsline {chapter}{Spis algorytmów}{\thepage}{}}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\biblioteka{tak} % tak/nie
+\end{document}

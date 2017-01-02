@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{ProLinuxEmbedded}
+Gene Sally.
+\newblock {\em Pro Linux Embedded Systems}.
+\newblock APRESS, 2010.
+
+\bibitem{AnalysisAndSynthesis}
+Petru~Eles Paul~Pop and Zebo Peng.
+\newblock {\em Analysis and Synthesis of Distributed Real-Time Embedded
+  Systems}.
+\newblock Springer Science+Buissness LLC, 2004.
+
+\bibitem{thinking1}
+Bruce Eckel.
+\newblock {\em Thinking in C++}.
+\newblock Wydawnictwo HELION, second edition, 2002.
+
+\bibitem{thinking2}
+Bruce Eckel.
+\newblock {\em Thinking in C++, Tom 2}.
+\newblock Edition 2000, second edition, 2006.
+
+\bibitem{LinuxNetworkProgramming}
+John W.~Turner Keir~Daivs and Nathan Yocom.
+\newblock {\em The definitive guide to Linux Network Programming}.
+\newblock Apress Media LLC., second edition, 2004.
+
+\bibitem{RaspberryPi}
+Eben Upton and Gareth Halfacree.
+\newblock {\em Raspberry Pi. Przewodnik użytkownika.}
+\newblock Helion, 2013.
+
+\bibitem{Programista35}
+Paweł Szczur.
+\newblock {\em Własny monitoring dla stron WWW}, volume~35.
+\newblock Dom Wydawniczy Anna Adamczyk, 2015.
+
+\end{thebibliography}
