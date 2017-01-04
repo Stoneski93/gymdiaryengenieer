@@ -1,13 +1,13 @@
 \thispagestyle {empty}
 \contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p.}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Cel pracy}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Zakres pracy}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Plan pracy}{1}{section.1.3}
-\contentsline {chapter}{\numberline {2}Analiza wymaga\IeC {\'n}.}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Wizja oraz og\IeC {\'o}lny zarys aplikacji.}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Istniej\IeC {\k a}ce rozwi\IeC {\k a}zania.}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Wymagania funkcjonalne}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Wymagania niefunkcjonalne}{5}{section.2.4}
+\contentsline {section}{\numberline {1.2}Zakres pracy}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Plan pracy}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}Analiza wymaga\IeC {\'n}.}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Wizja oraz og\IeC {\'o}lny zarys aplikacji.}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Istniej\IeC {\k a}ce rozwi\IeC {\k a}zania.}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Wymagania funkcjonalne}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Wymagania niefunkcjonalne}{6}{section.2.4}
 \contentsline {chapter}{\numberline {3}Wykorzystane technologie.}{7}{chapter.3}
 \contentsline {section}{\numberline {3.1}Przegl\IeC {\k a}d technologii}{7}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Swift (Objectiv-C)}{7}{subsection.3.1.1}
@@ -31,6 +31,10 @@
 \contentsline {section}{\numberline {4.6}Wdro\IeC {\.z}enie}{9}{section.4.6}
 \contentsline {section}{\numberline {4.7}Obs\IeC {\l }ugiwane systemy monitorowania}{9}{section.4.7}
 \contentsline {chapter}{\numberline {5}Podsumowanie}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}Bibliografia}{13}{chapter.6}
-\contentsline {chapter}{Spis tabel}{15}{chapter*.4}
-\contentsline {chapter}{Spis rysunk\'ow}{17}{chapter*.5}
+\contentsline {section}{\numberline {5.1}Wizja oraz og\IeC {\'o}lny zarys aplikacji.}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Istniej\IeC {\k a}ce rozwi\IeC {\k a}zania.}{12}{section.5.2}
+\contentsline {section}{\numberline {5.3}Wymagania funkcjonalne}{12}{section.5.3}
+\contentsline {section}{\numberline {5.4}Wymagania niefunkcjonalne}{13}{section.5.4}
+\contentsline {chapter}{\numberline {6}Bibliografia}{15}{chapter.6}
+\contentsline {chapter}{Spis tabel}{17}{chapter*.4}
+\contentsline {chapter}{Spis rysunk\'ow}{19}{chapter*.5}
